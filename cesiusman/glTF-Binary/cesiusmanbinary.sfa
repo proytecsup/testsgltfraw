@@ -1,0 +1,86 @@
+{
+  materials: [
+    {
+      name: 'Cesium_Man-effect',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: '7486794be7d7ab8f458e2c1b0cd16e773cdad5d1',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/gltf samples/cesiusman/glTF-Binary/cesiusmanbinary.glb',
+    name: 'cesiusmanbinary',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      name: '7486794be7d7ab8f458e2c1b0cd16e773cdad5d1',
+      pipeline_name: '*0',
+    },
+  ],
+  version: '0.54:2',
+}
