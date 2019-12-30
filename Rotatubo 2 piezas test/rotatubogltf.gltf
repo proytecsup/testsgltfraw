@@ -1,0 +1,302 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "yunque.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                343.7225341796875,
+                343.7225341796875,
+                343.7225341796875
+            ],
+            "translation" : [
+                -393.2516784667969,
+                157.0186004638672,
+                -45.1505126953125
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "rotatubo.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                343.7225341796875,
+                343.7225341796875,
+                343.7225341796875
+            ],
+            "translation" : [
+                9.412384033203125,
+                363.43096923828125,
+                55.205718994140625
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "yunque",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "name" : "Rotatubo",
+            "normalTexture" : {
+                "index" : 3,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 4,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "yunque",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "rotatubo",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        },
+        {
+            "source" : 4
+        },
+        {
+            "source" : 5
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Image_110",
+            "uri" : "Image_110.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Image_109",
+            "uri" : "Image_109.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Image_108",
+            "uri" : "Image_108.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Image_74",
+            "uri" : "Image_74.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Image_73",
+            "uri" : "Image_73.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Image_72",
+            "uri" : "Image_72.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 79,
+            "max" : [
+                0.029092907905578613,
+                0.02909335494041443,
+                0.47625279426574707
+            ],
+            "min" : [
+                -0.029093563556671143,
+                -0.029093116521835327,
+                -0.47625240683555603
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 79,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 79,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 132,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 4760,
+            "max" : [
+                0.5329065918922424,
+                0.28543394804000854,
+                0.5336854457855225
+            ],
+            "min" : [
+                -0.5430912971496582,
+                -0.9218964576721191,
+                -0.5423191785812378
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 4760,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4760,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 8868,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 948,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 948,
+            "byteOffset" : 948
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 632,
+            "byteOffset" : 1896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 264,
+            "byteOffset" : 2528
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57120,
+            "byteOffset" : 2792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57120,
+            "byteOffset" : 59912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38080,
+            "byteOffset" : 117032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17736,
+            "byteOffset" : 155112
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 172848,
+            "uri" : "rotatubogltf.bin"
+        }
+    ]
+}
